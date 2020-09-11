@@ -142,8 +142,8 @@ wrapper.forEach((element) => {
     card.style.transform = `rotateY(${angleX}deg) rotateX(${angleY}deg) `;
 
     // parallax position of background in card
-    const posX = (state.mouseX / state.width) * -40;
-    const posY = (state.mouseY / state.height) * -30;
+    const posX = (state.mouseX / state.width) * 50;
+    const posY = (state.mouseY / state.height) * -50;
     cardBg.style.transform = `translateX(${posX}px) translateY(${posY}px)`;
   });
 

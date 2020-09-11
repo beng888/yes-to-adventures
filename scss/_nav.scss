@@ -88,8 +88,9 @@ header {
 
         .solid,
         .transparent:hover {
-          background-color: #fff;
-          color: #69bde7;
+          background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+
+          color: #000;
         }
 
         .transparent,

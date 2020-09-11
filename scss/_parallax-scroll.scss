@@ -62,6 +62,7 @@ $slide-number: 4;
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
     flex-flow: column nowrap;
     color: #fff;
     font-family: Montserrat;
@@ -74,6 +75,21 @@ $slide-number: 4;
       all,
       cubic-bezier(0.22, 0.44, 0, 1)
     );
+    button {
+      font-size: 2vw;
+      letter-spacing: 0.5rem;
+      cursor: pointer;
+      width: 20%;
+      background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+      border-radius: 40px;
+      border: 2px solid #fff;
+      transition: all 0.3s;
+    }
+    button:hover {
+      transform: scale(1.05);
+      transition: all 0.3s;
+      color: azure;
+    }
   }
   &-title {
     font-size: 12vh;

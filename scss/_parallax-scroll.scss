@@ -42,7 +42,14 @@ $slide-number: 4;
     background-image: url(https://dytravel.com.au/wp-content/uploads/2020/06/Nightlife-in-the-Philippines.jpg);
   }
   &:nth-child(3) {
-    background-color: #000;
+    background-image: radial-gradient(
+      circle,
+      #460087,
+      #4c0057,
+      #3d0031,
+      #260417,
+      #000000
+    );
   }
   &:nth-child(4) {
     background-image: url(https://scontent.fmnl3-1.fna.fbcdn.net/v/t1.0-9/1929792_200527113658057_2624105164684701212_n.jpg?_nc_cat=101&_nc_sid=9267fe&_nc_ohc=KoJKFgb9U4gAX9Gi1cP&_nc_ht=scontent.fmnl3-1.fna&oh=b6b581e8e556ba626686af5c6c68d917&oe=5F7BD666);
